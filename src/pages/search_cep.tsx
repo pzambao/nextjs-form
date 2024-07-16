@@ -1,8 +1,15 @@
+import Head from "next/head"
+
 const SearchCep = () => {
   return (
-    <div>
-      Buscar Cep
-    </div>
+    <>
+      <Head>
+        <title>Buscar CEP | NextJS Form</title>
+      </Head>
+      <main>
+        <h1>Next.js Hello World</h1>
+      </main>
+    </>
   )
 }
 
