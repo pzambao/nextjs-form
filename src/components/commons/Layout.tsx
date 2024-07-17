@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { Header } from "./Header";
+import { Header } from "./Header/Index";
 import { Footer } from "./Footer";
 import { Montserrat } from "next/font/google"
 

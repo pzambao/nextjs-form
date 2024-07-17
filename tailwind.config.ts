@@ -6,7 +6,15 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {},
+  theme: {
+    extend: {
+      colors: {
+        'pz-gray-500': '#737994',
+        'pz-blue-500': '#8CAAEE',
+        'pz-blue-900': '#303446',
+      },
+    },
+  },
   plugins: [],
 };
 export default config;
