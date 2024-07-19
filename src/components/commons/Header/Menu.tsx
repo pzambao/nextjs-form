@@ -9,8 +9,8 @@ interface MenuProps {
 
 export const Menu = ({isVisible, onClose}: MenuProps) => {
   return (
-    <div 
-      className={`${isVisible ? 'flex' : 'invisible'}
+    <div className={`
+      ${isVisible ? 'flex' : 'invisible'}
       fixed inset-0 w-full h-full bg-black bg-opacity-40 backdrop-blur-sm md:hidden
     `}>
       <div className="w-full h-full bg-h-blue-900 shadow-md py-4 px-5">

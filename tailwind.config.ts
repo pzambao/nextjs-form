@@ -13,6 +13,9 @@ const config: Config = {
         'pz-blue-500': '#8CAAEE',
         'pz-blue-900': '#303446',
       },
+      spacing: {
+        '128': '32rem',
+      },
     },
   },
   plugins: [],
